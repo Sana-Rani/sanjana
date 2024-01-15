@@ -290,7 +290,7 @@
      .copyright{
       width: 100%;
       text-align: center;
-      padding: 25px 0;
+      padding: 20px 0;
       background:rgb(31, 33, 34);
       font-weight: 300;
       margin-top: 100px;
@@ -303,6 +303,9 @@
       display: none;
      }
      @media only screen and (max-width: 600px){
+          #header-text{
+    padding: 80px 20px 80px;
+  }
       nav.fa{
         display: block;
        }
