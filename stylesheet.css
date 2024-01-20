@@ -94,7 +94,7 @@
       }
       .tab-links::after {
         content: '';
-        width: 50px;
+        width: 0;
         height: 3px;
         background:aqua !important;
         position: absolute;
@@ -168,32 +168,32 @@
     margin-top: 50px;
      }
      .work{
-      border-radius:10px ;
+      border-radius:100px ;
       position: relative;
       overflow: hidden;
      }
      .work img{
       width: 100%;
-      border-radius: 50px;
+      border-radius: 10px;
       display: block !important;
-      transition:background 0.5s transform 0.5s;
+      transition: transform 3s;
      }
      .layer{
-      width: 100%;
+      width: 0%;
       height:0.5px;
       background: linear-gradient(rgb(0,0,0,0.6),#00ff95);
-      border-radius:50px ;
+      border-radius:10px ;
       position: absolute;
-      left: 0;
+      left: 10;
       bottom: 0;
       overflow: hidden;
       display: flex;
       justify-content: center;
       flex-direction: column;
-      padding: 0.40;
+      padding: 10 40px;
       text-align: center;
       font-size: 14px;
-      transition: transform 0.5s;
+      transition: height 0.5s;
      }
      .layer h3{
       font-weight: 500;
@@ -211,7 +211,7 @@
       border-radius: 50%;
       text-align: center;
      }
-     .work :hover img{
+     .work :hover {
       transform: scale(1.1);
      }
      
@@ -227,7 +227,7 @@
       border-radius: 6px;
       text-decoration: none;
       color: white;
-      transition: 0.5s;
+      transition: background 0.5s transform 0.5s;
      }
      .btn:hover{
       background: aqua;
