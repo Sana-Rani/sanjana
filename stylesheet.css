@@ -121,7 +121,7 @@
        }
       /*---------------------services------------------------*/
       #services{
-        padding: 30px 0;
+        padding: 80px 80px;
       }  
       .services-list{
         display: grid !important;
@@ -159,7 +159,7 @@
       }
      /* ----------------Portfolio ----------------*/
      #portfolio{
-      padding: 50px 0;
+      padding: 80px 80px;
      }
      .work-list{
       display: grid;
@@ -236,9 +236,11 @@
      
      .contact-left{
       flex-basis: 35%;
+         padding: 80px 80px;
      }
      .contact-right{
       flex-basis: 60%;
+         padding: 80px 80px;
      }
      .contact-left p{
       margin-top: 30px;
