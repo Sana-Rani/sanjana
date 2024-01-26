@@ -295,6 +295,9 @@
       bottom: 0;
       width: 100%;
   }
+copyright{
+    color:white;
+}
      .copyright i{
       color: red;
      }
