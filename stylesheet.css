@@ -77,10 +77,9 @@
       }
       .tab-titles {
         display: flex;
-        margin:20px 50px 40px ;
-        justify-content: space-between;
+        margin: 20px 0 40px;
       }
-      .tab-titles{
+      .tab-links{
         margin-right: 50px;
         font-size: 18px;
         font-weight: 500;
