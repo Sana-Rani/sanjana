@@ -295,10 +295,7 @@
       bottom: 0;
       width: 100%;
   }
-copyright{
-    color:white;
-}
-     .copyright i{
+ .copyright i{
       color: red;
      }
      /*---------------------------------CSS for small screens--------------------------------*/
