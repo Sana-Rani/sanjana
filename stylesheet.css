@@ -61,7 +61,6 @@
       }
       /*---------------------about --------------------*/
       #about{
-        padding: 80px 80px;
         color: white !important;
       }
       .row{
@@ -70,9 +69,11 @@
         flex-wrap: wrap;
       }
       .about-col-1{
+           padding: 80px 80px;
         flex-basis: 35%;
       }
       .about-col-2{
+           padding: 80px 80px;
         flex-basis: 60%;
       }
       .tab-titles {
