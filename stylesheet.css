@@ -136,7 +136,7 @@
         padding: 40px;
         font-size: 13px;
         font-weight: 300;
-        border-radius: 20px;
+        border-radius: 70px;
         transition:background 0.5s,transform 0.5s;
       }
       .services-list div i{
