@@ -33,7 +33,7 @@
   nav a:hover{
       color: rgb(71, 200, 255);
   } 
-  li{
+ nav  li{
       float: left;
       }
       li a {
