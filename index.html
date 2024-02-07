@@ -36,28 +36,32 @@
           <div class="about-col-2">
             <h1 class="sub-text">About Me</h1>
             <p>I'm a fresher web developer with a hunger for learning. I'm well versed in C++, JavaScript, and React, and I am also deeply interested in AI. Additionally, I have a solid understanding of data structures and algorithms, as well as system analysis and design and understanding operating systems. </p>
-        <div class="tab-titles">
-            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-            <p class="tab-links " onclick="opentab('experience')">Experience</p>
-            <p class="tab-links "onclick="opentab('education')">Education</p> 
-        </div>  
-       
-        <div class="tab-contents active-tab" id="skills">
-            <ul>
-                <li><span>UI/UX</span><br>Designing Web interfaces</li>
-                <li><span>Web Development</span><br>Web Development</li>
-            </ul>
-        </div>
-        <div class="tab-contents" id="experience">
-            <ul>
-                <li><span>...</span><br>Freshers</li>
-            </ul>
-        </div>
-        <div class="tab-contents" id="education">
-            <ul>
-                <li><span>2022-Present</span><br>BSc CSIT from Rajarshi Janak University,Janakpur</li>
-            </ul>
-        </div>
+         <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+  
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>UI/UX</span> <br>Designing web/app interfaces</li>
+                  <li><span>Web development</span> <br>Web app developer</li>
+                </ul>
+              </div>
+  
+              <div class="tab-contents" id="experiance">
+                <ul>
+                  <li><span></span> <br></li>
+                  <li><span>2022-present</span> <br> OPENED Web app development startup</li>
+                </ul>
+              </div>
+  
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span></span><br> </li>
+                  <li><span>2022-till</span> <br>BSc CSIT from Rajarshi Janak University,Janakpur</li>
+                </ul>
+              </div>
          </div>
         </div> 
         </div>
@@ -171,21 +175,21 @@
         <p>copyright &copy;. Sanjana_Yadav <i class="fa fa-heart"></i></p>
     </div>
         </footer>
-    <script>
-    var tablinks = document.getElementByClassName("tab-links");   
-    var tabcontents = document.getElementByClassName("tab-contents");
-    function opentab(tabname) {
-        for(tablink of tablinks){
-            tablink.classlist.remove("active-link");
-        }
         
-        for(tabcontent of tabcontents){
-            tabcontent.classlist.remove("active-tab");
-        }
-        Event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add(active-tab);
-    }   
-</script>
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwQsFuNBb5Ie3CE7P9qkhT2ykEnDsOr1mUIYdEGYOUvdxDU948b2PnToJMFoTCVLGCV/exec'
         const form = document.forms['submit-to-google-sheet']
