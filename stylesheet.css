@@ -308,39 +308,87 @@
       color: red;
      }
      /*---------------------------------CSS for small screens--------------------------------*/
-     nav.fa{
+     nav .fa{
       display: none;
-     }
-     @mediaonly screen and (max-width: 600px){
-      nav.fa{
-        display: block;
-       }
-       nav ul{
-        background:#00f0f0;
-        position:relative;
-        top:0;
-        right:-200px;
-        width: 200px;
-        height: 100vh;
-        padding: top 50px;
-        z-index: index 2;
-       }
-       nav ul li{
-        display:block;
-        margin:25px;
-       }
-       nav ul.fa{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor:pointer;
-       }
-     }
-     #msg{
-      color: aliceblue;
-      margin-top: -10px;
+    } 
+    @media only screen and (max-width:600px){
+      .about-col-1 img {
+       height: 400px;
+       width: 300px;
+      float: left;
+      }
+    
+      .header-text{
+          margin-top: 100%;
+          font-size: 16px;
+      }
+      .header-text h1{
+          font-size: 30px;
+    
+      }
+      nav .fa{
+          display: block;
+          font-size: 25px;
+          color: white;
+      }
+      nav ul{
+          background: #74e636; 
+          position: fixed;
+          top: 0;
+          right: -200px;
+          width: 200px;
+          height: 100vh;
+          padding-top: 50px;
+          z-index: 2;
+          transition: right 0.5s;
+         }
+         nav ul li{
+          display: block;
+          margin: 25px;
+         
+         }
+         nav ul .fa{
+          position: absolute;
+          top: 25px;
+          left: 25px;
+          cursor: pointer;
+         }
+         nav a:hover{
+          color: rgb(8, 9, 10);
+      } 
+         .sub-title{
+          font-size: 40px;
+         }
+         .about-col-1, .about-col-2{
+          flex-basis: 100%;
+         }
+         .about-col-1{
+          margin-bottom: 30px;
+         }
+         .about-col-2{
+          font-size: 14px;
+         }
+         .tab-links{
+          font-size: 16px;
+          margin-right: 20px;
+    
+         }
+    
+         .contact-left, .contact-right{
+          flex-basis: 100%;
+         }
+         .copyright{
+          font-size: 14px;
+         }
+    }
+    #msg{
+      color: #61b752;
+      margin-top: -40px;
       display: block;
-     }
+    }
+       
+       
+       
      
      
      
